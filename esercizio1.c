@@ -6,9 +6,9 @@ int main (int argc, char *argv[])
     double numero2;
     double rapporto;
     printf("Inserisci un numero \n");
-    scanf(%d, & numero1);
+    scanf("%d", &numero1);
     printf("Inserisci un secondo numero \n");
-    scanf(%d, & numero2);
+    scanf("%d", &numero2);
     do
     {
         if (numero1 > numero2)
@@ -21,6 +21,6 @@ int main (int argc, char *argv[])
         }
     
     } while (numero1 != 0 || numero1 != 0);
-    printf(numero1);
-    printf(numero2);
+    printf("%f", numero1);
+    printf("%f", numero2);
 }
