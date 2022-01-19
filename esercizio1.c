@@ -5,12 +5,14 @@ int main(int argc, char *argv[])
     double numero1;
     double numero2;
     double rapporto;
-    printf("Inserisci un numero \n");
-    scanf("%lf", &numero1);
-    printf("Inserisci un secondo numero \n");
-    scanf("%lf", &numero2);
     do
     {
+
+        printf("Inserisci un numero \n");
+        scanf("%lf", &numero1);
+        printf("Inserisci un secondo numero \n");
+        scanf("%lf", &numero2);
+
         if (numero1 > numero2)
         {
             rapporto = numero1 / numero2;
