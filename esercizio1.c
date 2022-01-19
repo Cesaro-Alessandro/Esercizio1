@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 
     double numero1;
@@ -13,17 +13,14 @@ int main (int argc, char *argv[])
     {
         if (numero1 > numero2)
         {
-            rapporto = numero1/numero2;
+            rapporto = numero1 / numero2;
             printf("%lf \n", rapporto);
         }
         else if (numero2 > numero1)
         {
-            rapporto = numero2/numero1;
+            rapporto = numero2 / numero1;
             printf("%lf \n", rapporto);
-            
         }
-    
+
     } while (numero1 != 0 || numero1 != 0);
-    
-    
 }
