@@ -22,5 +22,5 @@ int main(int argc, char *argv[])
             printf("%lf \n", rapporto);
         }
 
-    } while (numero1 != 0 && numero1 != 0);
+    } while (numero1 != 0 || numero2 != 0);
 }
