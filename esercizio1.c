@@ -14,12 +14,12 @@ int main (int argc, char *argv[])
         if (numero1 > numero2)
         {
             rapporto = numero1/numero2;
-            printf("%lf", rapporto);
+            printf("%lf \n", rapporto);
         }
         else if (numero2 > numero1)
         {
             rapporto = numero2/numero1;
-            printf("%lf", rapporto);
+            printf("%lf \n", rapporto);
             
         }
     
