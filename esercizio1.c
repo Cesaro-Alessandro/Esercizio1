@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 
         printf("Inserisci un numero \n");
         scanf("%lf", &numero1);
+        printf("rapporto \n");
         printf("Inserisci un secondo numero \n");
         scanf("%lf", &numero2);
         printf("rapporto \n");
