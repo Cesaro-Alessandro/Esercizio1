@@ -7,7 +7,6 @@ int main(int argc, char *argv[])
     double rapporto;
     do
     {
-
         printf("Inserisci un numero \n");
         scanf("%lf", &numero1);
         printf("Inserisci un secondo numero \n");
@@ -21,4 +20,7 @@ int main(int argc, char *argv[])
             printf("%lf \n", rapporto);
         }
     } while (numero1 != 0 || numero2 != 0);
+    if (numero1 == 0 || numero2 == 0){
+        printf("Errore, un valore inserito è errato. Ri-eseguire il programma \n");
+    }
 }
