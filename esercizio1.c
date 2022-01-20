@@ -12,7 +12,8 @@ int main(int argc, char *argv[])
         scanf("%lf", &numero1);
         printf("Inserisci un secondo numero \n");
         scanf("%lf", &numero2);
-
+        printf("%lf \n", numero1);
+        printf("%lf \n", numero2);
         if (numero1 > numero2){
             printf("rapporto");
             rapporto = numero1 / numero2;
