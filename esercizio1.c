@@ -12,20 +12,19 @@ int main(int argc, char *argv[])
         scanf("%lf", &numero1);
         printf("Inserisci un secondo numero \n");
         scanf("%lf", &numero2);
-        printf("%lf \n", numero1);
+        printf("rapporto \n");
         printf("%lf \n", numero2);
         if (numero1 > numero2){
-            printf("rapporto");
+            printf("rapporto \n");
             rapporto = numero1 / numero2;
-            printf("rapporto");
+            printf("rapporto \n");
             printf("%lf \n", rapporto);
         }
         else if (numero2 > numero1){
-            printf("rapporto");
+            printf("rapporto \n");
             rapporto = numero2 / numero1;
-            printf("rapporto");
+            printf("rapporto \n");
             printf("%lf \n", rapporto);
         }
-        return 0;
     } while (numero1 != 0 || numero2 != 0);
 }
