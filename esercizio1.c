@@ -15,12 +15,16 @@ int main(int argc, char *argv[])
 
         if (numero1 > numero2)
         {
+            printf("rapporto");
             rapporto = numero1 / numero2;
+            printf("rapporto");
             printf("%lf \n", rapporto);
         }
         else if (numero2 > numero1)
         {
+            printf("rapporto");
             rapporto = numero2 / numero1;
+            printf("rapporto");
             printf("%lf \n", rapporto);
         }
 
